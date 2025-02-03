@@ -1,0 +1,57 @@
+/* Estilos personalizados */
+body {
+    font-family: 'DM Sans', sans-serif;
+}
+
+.navbar {
+    background-color: #0b5ed7 !important;
+}
+
+.navbar-brand, .nav-link {
+    color: #f1faee !important;
+}
+
+.nav-link:hover {
+    color: #8db8bb !important;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.card-title {
+    color: #2c3e50;
+}
+
+.btn-outline-primary {
+    border-color: #2c3e50;
+    color: #2c3e50;
+}
+
+.btn-outline-primary:hover {
+    background-color: #2c3e50;
+    color: #fff;
+}
+
+footer {
+    background-color: #2c3e50;
+}
+
+.list-group-item {
+    border: none;
+    padding: 10px 15px;
+}
+
+.list-group-item strong {
+    color: #2c3e50;
+}
