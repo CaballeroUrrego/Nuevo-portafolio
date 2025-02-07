@@ -31,37 +31,34 @@ section {
     -10px
   ); /* Efecto de desplazamiento hacia arriba al pasar el ratón por encima */
 }
-
 .card-title {
-  color: #2c3e50; /* Color del título de las tarjetas */
+  color: #2c3e50;
+  /* Color del título de las tarjetas */
 }
-
 .btn-outline-primary {
-  border-color: #2c3e50; /* Color del borde del botón */
+  border-color: #2c3e50;
+  /* Color del borde del botón */
   color: #2c3e50; /* Color del texto del botón */
 }
-
 .btn-outline-primary:hover {
   background-color: #2c3e50; /* Color de fondo del botón al pasar el ratón por encima */
   color: #fff; /* Color del texto del botón al pasar el ratón por encima */
 }
-
 footer {
   background-color: #2c3e50; /* Color de fondo del pie de página */
 }
-
 .list-group-item {
   border: none; /* Sin borde para los elementos de la lista */
-  padding: 10px 15px; /* Espaciado interno para los elementos de la lista */
+  padding: 10px 15px;
+  /* Espaciado interno para los elementos de la lista */
 }
-
 .list-group-item strong {
   color: #2c3e50; /* Color del texto en negrita dentro de los elementos de la lista */
 }
-
 .whatsapp {
   position: fixed; /* Posición fija para el botón de WhatsApp */
-  width: 60px; /* Ancho del botón de WhatsApp */
+  width: 60px;
+  /* Ancho del botón de WhatsApp */
   height: 60px; /* Altura del botón de WhatsApp */
   bottom: 40px; /* Distancia desde la parte inferior de la pantalla */
   right: 40px; /* Distancia desde el lado derecho de la pantalla */
@@ -72,11 +69,10 @@ footer {
   font-size: 30px; /* Tamaño de la fuente del icono de WhatsApp */
   z-index: 100; /* Asegura que el botón esté por encima de otros elementos */
 }
-
 .whatsapp-icon {
-  margin-top: 13px; /* Margen superior para centrar el icono dentro del botón */
+  margin-top: 13px;
+  /* Margen superior para centrar el icono dentro del botón */
 }
-
 .gmail {
   position: fixed; /* Posición fija para el botón de Gmail */
   width: 60px; /* Ancho del botón de Gmail */
@@ -92,14 +88,13 @@ footer {
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Sombra para el botón de Gmail */
   transition: background-color 0.3s ease-in-out; /* Transición suave para el cambio de color de fondo */
 }
-
 .gmail-icon {
   margin-top: 13px; /* Margen superior para centrar el icono dentro del botón */
 }
-
 .btn-attractive {
   display: inline-block; /* Mostrar como un bloque en línea */
-  padding: 8px 15px; /* Espaciado interno del botón */
+  padding: 8px 15px;
+  /* Espaciado interno del botón */
   font-size: 14px; /* Tamaño de la fuente del botón */
   color: #fff; /* Color del texto del botón */
   background-color: #007bff; /* Color de fondo del botón */
@@ -109,16 +104,14 @@ footer {
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para el botón */
   transition: all 0.3s ease; /* Transición suave para todos los cambios */
 }
-
 .btn-attractive:hover {
-  background-color: #0056b3; /* Color de fondo del botón al pasar el ratón por encima */
+  background-color: #0056b3;
+  /* Color de fondo del botón al pasar el ratón por encima */
   box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15); /* Sombra más intensa al pasar el ratón por encima */
   transform: translateY(
     -2px
   ); /* Efecto de desplazamiento hacia arriba al pasar el ratón por encima */
 }
-
-
 /* Estilos personalizados para la sección de habilidades */
 #habilidades .habilidad-icon {
   width: 50px; /* Ancho de las imágenes */
@@ -126,7 +119,8 @@ footer {
   margin: 10px; /* Margen alrededor de las imágenes */
   transition: transform 0.3s ease; /* Transición suave para el efecto de desplazamiento */
 }
-
 #habilidades .habilidad-icon:hover {
-  transform: scale(1.1); /* Efecto de agrandamiento al pasar el ratón por encima */
+  transform: scale(
+    1.1
+  ); /* Efecto de agrandamiento al pasar el ratón por encima */
 }
